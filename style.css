@@ -49,11 +49,12 @@
     width: 90%;
 }
 
-
+/******************************************************************/
 
 .tow{
     display: flex;
-    background-image: url(images/bg.png) ;
+    /* background-image: url(images/bg.png) ; */
+    background-color: rgba(238, 169, 137, 0.582);
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -69,16 +70,121 @@
 }
 
 .letter-tow{
+
 width: 50%;
 margin-top: 40px;
-margin-right: 5%;
+margin-right: 10%;
+margin-bottom: 60px;
+
+}
+
+
+/*********************************************************************/
+
+
+.recipies{
+    text-align: center;
+    margin: 80px 200px 0 200px;
 }
 
 
 
 
 
-.recipies{
+.food{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
     text-align: center;
-    margin: 80px 200px 0 200px;
+
+
+}
+
+.food1{
+    width: 50%;
+    box-shadow: 12px 12px 40px gray;
+    margin-right: 5%;
+    border-radius: 30px;
+}
+
+
+.food2{
+    width: 50%;
+    box-shadow: 12px 12px 40px gray;
+    border-radius: 5%;
+}
+
+
+.img-rec{
+    margin-top: 25px;
+    width: 90%;
+}
+
+.food1 h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 30px 0 30px;
+    text-align: left;
+}
+
+.food1 p{
+    margin: 05px 30px 40px 30px;
+    text-align: left;
+}
+
+
+.food2 h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 30px 0 30px;
+    text-align: left;
+}
+
+.food2 p{
+    margin: 05px 30px 40px 30px;
+    text-align: left;
+}
+
+
+/*********************************************************************/
+
+
+.followers{
+    display: flex;
+    margin: 10% 10% 5% 10%;
+    box-shadow: 12px 12px 40px gray ;
+    align-items: center;
+    justify-content: center;
+}
+
+.followers div{
+    padding: 20px;  
+}
+
+/********************************************************************/
+
+footer{
+    background-color: rgb(15, 22, 29);
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.gray{
+    color: gray;
+}
+
+footer h2{
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+footer p{
+    color: rgb(121, 128, 143);
+    font-size: 12px;
 }

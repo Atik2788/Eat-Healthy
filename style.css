@@ -104,7 +104,7 @@ margin-bottom: 60px;
 
 .food1{
     width: 50%;
-    box-shadow: 12px 12px 40px gray;
+    box-shadow: 12px 12px 40px rgb(155, 154, 154);
     margin-right: 5%;
     border-radius: 30px;
 }
@@ -112,7 +112,7 @@ margin-bottom: 60px;
 
 .food2{
     width: 50%;
-    box-shadow: 12px 12px 40px gray;
+    box-shadow: 12px 12px 40px rgb(155, 154, 154);
     border-radius: 5%;
 }
 
@@ -156,7 +156,8 @@ margin-bottom: 60px;
 .followers{
     display: flex;
     margin: 10% 10% 5% 10%;
-    box-shadow: 12px 12px 40px gray ;
+    box-shadow: 12px 12px 40px rgb(163, 163, 163) ;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
 }

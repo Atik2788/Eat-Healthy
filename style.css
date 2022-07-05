@@ -55,20 +55,21 @@
 .tow{
     display: flex;
     /* background-image: url(images/bg.png) ; */
-    background-image: linear-gradient(rgba(255, 115, 0, 0.473), rgba(221, 255, 71, 0.596));
+    background-image: linear-gradient(rgba(255, 115, 0, 0.562), rgba(255, 175, 71, 0.055));
     background-repeat: no-repeat;
     width: 100%;
-    height: 50vh;
+    height: 450px;
+    align-items: center;
 }
 
 .girl-img{
     width: 50%;
     margin: auto;
-    padding: 0 10%;
-    align-items: center;
+
 }
 .girl-img img{
-    width: 20vh;
+    width: 260px;
+    padding-left: 40%;
 }
 
 .letter-tow{

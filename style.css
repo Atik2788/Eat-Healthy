@@ -49,120 +49,99 @@
     width: 90%;
 }
 
-/******************************************************************/
+/***************************************************************/
+/***************************************************************/
 
 .tow{
     display: flex;
     /* background-image: url(images/bg.png) ; */
-    background-color: rgba(238, 169, 137, 0.582);
+    background-image: linear-gradient(rgba(255, 115, 0, 0.473), rgba(221, 255, 71, 0.596));
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 50vh;
 }
 
 .girl-img{
-    width: 60%;
-    margin-top: 40px;
-    margin-left: 10%;
+    width: 50%;
+    margin: auto;
+    padding: 0 10%;
+    align-items: center;
 }
 .girl-img img{
-    width: 40%;
+    width: 20vh;
 }
 
 .letter-tow{
-
 width: 50%;
-margin-top: 40px;
-margin-right: 10%;
-margin-bottom: 60px;
+margin: auto;
+padding: 0 10%;
+align-items: center;
 
 }
 
 
-/*********************************************************************/
-
+/***************************************************************/
+/***************************************************************/
 
 .recipies{
     text-align: center;
-    margin: 80px 200px 0 200px;
+    width: 80%;
+    margin: 80px auto 0 auto;
+
 }
 
 
 
-
+/****************************************/
+/****************************************/
+.food-sec{
+    display: flex;
+    width: 80%;
+    margin: 70px auto;
+}
 
 .food{
-    display: flex;
-    margin-top: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 50px;
-    text-align: center;
-
-
-}
-
-.food1{
-    width: 50%;
-    box-shadow: 12px 12px 40px rgb(155, 154, 154);
-    margin-right: 5%;
+    box-shadow: 12px 12px 40px gray;
     border-radius: 30px;
+    width: 25%;
+    height: 20%;
+    padding: 20px 20px 20px 20px;
+    margin:  auto;
+    align-items: center;
+    text-align: left;
+
 }
 
-
-.food2{
-    width: 50%;
-    box-shadow: 12px 12px 40px rgb(155, 154, 154);
-    border-radius: 5%;
+.food-sec img{
+    width: 100%;
+    border-radius: 10px;
 }
 
-
-.img-rec{
-    margin-top: 25px;
-    width: 90%;
-}
-
-.food1 h1{
+.food h1{
+    padding: 15px 0px 0px 0px;
     font-family: 'Secular One', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 20px 30px 0 30px;
-    text-align: left;
 }
 
-.food1 p{
-    margin: 05px 30px 40px 30px;
-    text-align: left;
+.food p{
+    padding: 10px 0px;
 }
 
-
-.food2 h1{
-    font-family: 'Secular One', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 20px 30px 0 30px;
-    text-align: left;
-}
-
-.food2 p{
-    margin: 05px 30px 40px 30px;
-    text-align: left;
-}
-
-
-/*********************************************************************/
+/*************************************************/
+/*************************************************/
 
 
 .followers{
     display: flex;
-    margin: 10% 10% 5% 10%;
+    width: 80%;
+    margin: 100px auto 0px auto;
     box-shadow: 12px 12px 40px rgb(163, 163, 163) ;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
+    border-radius: 15px;
 }
 
-.followers div{
+.follo{
+    align-items: center;
+    margin: auto;
+    text-align: center;
     padding: 60px;  
 }
 
